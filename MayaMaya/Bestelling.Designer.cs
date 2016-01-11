@@ -31,6 +31,7 @@
             this.ListViewLunch = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Lunch = new System.Windows.Forms.TabPage();
             this.Diner = new System.Windows.Forms.TabPage();
@@ -46,7 +47,8 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_TotaalPrijs = new System.Windows.Forms.Label();
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControl1.SuspendLayout();
             this.Lunch.SuspendLayout();
             this.Diner.SuspendLayout();
@@ -80,6 +82,10 @@
             // 
             this.columnHeader2.Text = "Voorraad";
             this.columnHeader2.Width = 100;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Prijs";
             // 
             // tabControl1
             // 
@@ -119,7 +125,8 @@
             // 
             this.ListViewDiner.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader5,
-            this.columnHeader6});
+            this.columnHeader6,
+            this.columnHeader10});
             this.ListViewDiner.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListViewDiner.FullRowSelect = true;
             this.ListViewDiner.GridLines = true;
@@ -135,7 +142,7 @@
             // columnHeader5
             // 
             this.columnHeader5.Text = "Product";
-            this.columnHeader5.Width = 615;
+            this.columnHeader5.Width = 553;
             // 
             // columnHeader6
             // 
@@ -157,7 +164,8 @@
             // 
             this.ListViewDranken.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader7,
-            this.columnHeader8});
+            this.columnHeader8,
+            this.columnHeader11});
             this.ListViewDranken.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListViewDranken.FullRowSelect = true;
             this.ListViewDranken.GridLines = true;
@@ -173,7 +181,7 @@
             // columnHeader7
             // 
             this.columnHeader7.Text = "Product";
-            this.columnHeader7.Width = 615;
+            this.columnHeader7.Width = 553;
             // 
             // columnHeader8
             // 
@@ -224,9 +232,13 @@
             this.lbl_TotaalPrijs.Size = new System.Drawing.Size(0, 13);
             this.lbl_TotaalPrijs.TabIndex = 3;
             // 
-            // columnHeader9
+            // columnHeader10
             // 
-            this.columnHeader9.Text = "Prijs";
+            this.columnHeader10.Text = "Prijs";
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "Prijs";
             // 
             // Bestelling
             // 
@@ -270,5 +282,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.ColumnHeader columnHeader11;
     }
 }
