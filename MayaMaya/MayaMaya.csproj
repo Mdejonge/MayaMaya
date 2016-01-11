@@ -122,13 +122,13 @@
     <EmbeddedResource Include="Bestelling.resx">
       <DependentUpon>Bestelling.cs</DependentUpon>
     </EmbeddedResource>
-
+<<<<<<< HEAD
     <EmbeddedResource Include="KeukenOverzicht.resx">
       <DependentUpon>KeukenOverzicht.cs</DependentUpon>
-
+=======
     <EmbeddedResource Include="commentaarscherm.resx">
       <DependentUpon>commentaarscherm.cs</DependentUpon>
-
+>>>>>>> origin/master
     </EmbeddedResource>
     <EmbeddedResource Include="LoginScherm.resx">
       <DependentUpon>LoginScherm.cs</DependentUpon>
