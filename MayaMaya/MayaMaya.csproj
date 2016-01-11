@@ -101,6 +101,9 @@
     <EmbeddedResource Include="Bestelling.resx">
       <DependentUpon>Bestelling.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KeukenOverzicht.resx">
+      <DependentUpon>KeukenOverzicht.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginScherm.resx">
       <DependentUpon>LoginScherm.cs</DependentUpon>
     </EmbeddedResource>

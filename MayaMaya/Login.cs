@@ -25,12 +25,12 @@ namespace MayaMaya
 
             SqlCommand command = new SqlCommand("select AFDELING from Personeel where WACHTWOORD = '" + password + "'", conn);
             SqlDataReader reader = command.ExecuteReader();
-            int count = 0;
+            
             string afdeling = "4";
             while (reader.Read())
             {
                 afdeling = (string)reader["AFDELING"];
-                //count += 1;
+               
                 //int id = (int)reader["id"];
 
                 //string naam = (string)reader["NAAM"];
